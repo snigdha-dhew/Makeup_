@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Makeup_Peeker</string>
+    <string name="b1_find_makeup">Find Best Brands!</string>
+    <string name="t1_brands">No product selected</string>
+    <string-array name="s1_products">
+        <item>Foundation</item>
+        <item>Blush</item>
+        <item>Eyeshadow</item>
+        <item>Eyeliner</item>
+        <item>Lipstick</item>
+    </string-array>
+</resources>

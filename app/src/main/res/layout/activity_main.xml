@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.makeup_peeker.MainActivity">
+
+    <Spinner
+        android:id="@+id/S1_products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_marginTop="40dp"
+        android:entries="@array/s1_products" />
+
+    <Button
+        android:id="@+id/B1_find_makeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:onClick="onClickB1"
+        android:text="@string/b1_find_makeup" />
+
+    <TextView
+        android:id="@+id/T1_brands"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="@string/t1_brands" />
+
+    //done
+
+</LinearLayout>
