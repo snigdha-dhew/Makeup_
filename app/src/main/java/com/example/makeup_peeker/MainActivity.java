@@ -24,7 +24,6 @@ public class MainActivity extends Activity {
         for (String brand : brandsList) {
             brandsFormatted.append(brand).append('\n');
         }
-//Display the beers
         brands.setText(brandsFormatted);
 
     }
